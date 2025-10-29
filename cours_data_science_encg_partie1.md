@@ -1,6 +1,8 @@
 # COURS DE SCIENCE DES DONNÉES
 ## École Nationale de Commerce et de Gestion (ENCG) - 4ème Année
+#ERROUYAS AYA
 
+<img src="IMG-20241010-WA0122.jpeg" style="height:464px;margin-right:432px"/>
 ---
 
 # PARTIE 1 : FONDAMENTAUX DE LA SCIENCE DES DONNÉES
