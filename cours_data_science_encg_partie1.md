@@ -2,7 +2,7 @@
 ## École Nationale de Commerce et de Gestion (ENCG) - 4ème Année
 # ERROUYAS AYA
 
-<img src="IMG-20241010-WA0122.jpeg" style="height:264px;margin-right:232px"/>
+<img src="IMG-20241010-WA0122.JPG" style="height:264px;margin-right:232px"/>
 ---
 
 # PARTIE 1 : FONDAMENTAUX DE LA SCIENCE DES DONNÉES
