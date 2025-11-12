@@ -54,3 +54,22 @@ name     role         type demographic  \
 2                                               None    cm             no  
 3                                               None    cm             no  
 4  class of iris plant: Iris Setosa, Iris Versico...  None             no  
+
+## Représentation graphyque:
+```python
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Combine features (X) and target (y) into a single DataFrame for plotting
+# Assuming X and y are already defined from previous steps
+iris_df = pd.concat([X, y], axis=1)
+
+# Rename target column for better readability in plots
+iris_df.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+
+# Display the first few rows of the combined DataFrame
+display(iris_df.head())
+```
+ 
+  
