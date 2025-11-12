@@ -55,7 +55,7 @@ name     role         type demographic  \
 3                                               None    cm             no  
 4  class of iris plant: Iris Setosa, Iris Versico...  None             no  
 
-## Représentation graphyque:
+## Représentation graphique:
 ```python
 import pandas as pd
 import seaborn as sns
