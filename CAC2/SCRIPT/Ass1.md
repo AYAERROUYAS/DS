@@ -10,7 +10,7 @@ L'ensemble de données Iris est l'un des plus connus et des plus utilisés en st
 - **Subject Area** : Biology
 - **Associated Tasks** : Classification
 - **Instances** : 150
-## Déscriptive de la base se donnée:
+## Déscriptive de la base de donnée:
 Il s'agit de l'un des premiers jeux de données utilisés dans la littérature sur les méthodes de classification et largement employé en statistique et en apprentissage automatique. Ce jeu de données contient 3 classes de 50 instances chacune, chaque classe correspondant à une espèce d'iris. Une classe est linéairement séparable des deux autres ; ces dernières ne le sont pas entre elles.
 
 Attribut prédit : espèce d'iris.
