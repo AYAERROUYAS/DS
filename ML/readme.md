@@ -1,4 +1,4 @@
-# COMPTE RENDUE
+# COMPTE RENDU
 # INFORMATION SUR LA BDD  
   
 The two datasets are related to red and white variants of the Portuguese "Vinho Verde" wine. For more details, consult: http://www.vinhoverde.pt/en/ or the reference [Cortez et al., 2009].  Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.).
