@@ -1,4 +1,5 @@
 # ERROUYAS AYA
+<img src="IMG-20241010-WA0122.jpg" style="height:150px;margin-right:100px"/>
 
 
 # 📊 Compte Rendu d'Analyse : Student Stress Analysis
