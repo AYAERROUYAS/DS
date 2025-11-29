@@ -2,11 +2,11 @@
 <img src="IMG-20241010-WA0122.jpg" style="height:150px;margin-right:100px"/>
 
 
-# 📊 Compte Rendu d'Analyse : Student Stress Analysis
+# Compte Rendu d'Analyse : Student Stress Analysis
 
 ---
 
-## 📑 Table des Matières
+## Table des Matières
 
 ### I. Introduction
 - [1.1 Informations Générales](#-informations-générales)
@@ -15,22 +15,22 @@
 
 ### II. Méthodologie d'Analyse
 - [2.1 Nettoyage des Données](#1-nettoyage-des-données)
-  - Détection des valeurs manquantes ✅
-  - Suppression des doublons ✅
-  - Traitement des valeurs aberrantes ✅
-  - Vérification de la cohérence ✅
+  - Détection des valeurs manquantes 
+  - Suppression des doublons 
+  - Traitement des valeurs aberrantes 
+  - Vérification de la cohérence 
 - [2.2 Analyse Exploratoire des Données (EDA)](#2-analyse-exploratoire-des-données-eda)
-  - Statistiques descriptives ✅
-  - Visualisations des distributions ✅
-  - Analyse des variables catégorielles ✅
+  - Statistiques descriptives 
+  - Visualisations des distributions 
+  - Analyse des variables catégorielles 
 - [2.3 Analyse des Corrélations](#3-analyse-des-corrélations)
-  - Matrice de corrélation ✅
-  - Identification des corrélations fortes ✅
-  - Visualisation heatmap ✅
+  - Matrice de corrélation 
+  - Identification des corrélations fortes 
+  - Visualisation heatmap 
 - [2.4 Modélisation Prédictive](#4-modélisation-prédictive)
-  - Régression linéaire ✅
-  - Régression logistique ✅
-  - Évaluation des modèles ✅
+  - Régression linéaire 
+  - Régression logistique 
+  - Évaluation des modèles 
 
 ### III. Résultats et Analyses
 - [3.1 Résultats du Nettoyage](#résultats-du-nettoyage)
@@ -55,49 +55,7 @@
 
 ---
 
-## 🎯 Statut des Étapes d'Analyse
 
-### ✅ Étapes Complétées
-
-| # | Étape | Statut | Description |
-|---|-------|--------|-------------|
-| 1 | **Chargement des données** | ✅ FAIT | Dataset chargé depuis Kaggle via kagglehub |
-| 2 | **Nettoyage - Valeurs manquantes** | ✅ FAIT | Détection et traitement des données manquantes |
-| 3 | **Nettoyage - Doublons** | ✅ FAIT | Identification et suppression des doublons |
-| 4 | **Nettoyage - Cohérence** | ✅ FAIT | Vérification des types et formats de données |
-| 5 | **EDA - Statistiques descriptives** | ✅ FAIT | Calcul des moyennes, médianes, écarts-types |
-| 6 | **EDA - Distributions** | ✅ FAIT | Création de 3 graphiques de distribution |
-| 7 | **EDA - Boxplots** | ✅ FAIT | Détection des valeurs aberrantes |
-| 8 | **EDA - Variables catégorielles** | ✅ FAIT | Graphiques en barres des catégories |
-| 9 | **Corrélation - Calcul** | ✅ FAIT | Matrice de corrélation de Pearson |
-| 10 | **Corrélation - Visualisation** | ✅ FAIT | Heatmap colorée avec annotations |
-| 11 | **Corrélation - Analyse** | ✅ FAIT | Identification des corrélations fortes (|r| > 0.5) |
-| 12 | **Régression Linéaire - Préparation** | ✅ FAIT | Division train/test (80/20) |
-| 13 | **Régression Linéaire - Entraînement** | ✅ FAIT | Modèle entraîné sur données d'entraînement |
-| 14 | **Régression Linéaire - Évaluation** | ✅ FAIT | Calcul R², RMSE, visualisation |
-| 15 | **Régression Logistique - Préparation** | ✅ FAIT | Création variable binaire, standardisation |
-| 16 | **Régression Logistique - Entraînement** | ✅ FAIT | Modèle entraîné avec stratification |
-| 17 | **Régression Logistique - Évaluation** | ✅ FAIT | Accuracy, matrice de confusion, rapport |
-| 18 | **Visualisations - Export** | ✅ FAIT | 7 graphiques sauvegardés en haute résolution |
-| 19 | **Documentation - Code** | ✅ FAIT | Code commenté en français |
-| 20 | **Documentation - Rapport** | ✅ FAIT | Compte rendu Markdown complet |
-
-### 📊 Résumé Quantitatif
-
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  PROGRESSION GLOBALE : 20/20 étapes (100%)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-  ✅ Nettoyage des données    : 4/4  étapes
-  ✅ Analyse exploratoire     : 4/4  étapes
-  ✅ Analyse des corrélations : 3/3  étapes
-  ✅ Régression linéaire      : 3/3  étapes
-  ✅ Régression logistique    : 3/3  étapes
-  ✅ Visualisations           : 1/1  étape
-  ✅ Documentation            : 2/2  étapes
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
 
 ---
 
@@ -566,15 +524,7 @@ Le dataset contient des informations collectées auprès d'étudiants universita
 - [Pandas Documentation](https://pandas.pydata.org/)
 - [Seaborn Documentation](https://seaborn.pydata.org/)
 
----
 
-## 👥 Contributeurs et Contact
-
-**Analyste** : [Votre nom]  
-**Date de création** : Novembre 2025  
-**Dernière mise à jour** : [Date]
-
----
 
 ## 📌 Annexes
 
@@ -597,11 +547,6 @@ Le dataset contient des informations collectées auprès d'étudiants universita
 
 Le code complet de l'analyse est disponible dans le script Python fourni.
 
-### C. Résultats Détaillés
-
-[Les résultats numériques détaillés seront ajoutés après l'exécution du code]
-
----
 
 ## ✅ Checklist de Validation
 
@@ -685,30 +630,7 @@ Le code complet de l'analyse est disponible dans le script Python fourni.
 
 ---
 
-### 📊 Score de Complétion
 
-```
-╔════════════════════════════════════════╗
-║                                        ║
-║   ANALYSE COMPLÈTE : 20/20 ✅         ║
-║                                        ║
-║   ████████████████████  100%          ║
-║                                        ║
-║   • Nettoyage      : 4/4  ✅          ║
-║   • EDA            : 4/4  ✅          ║
-║   • Corrélations   : 3/3  ✅          ║
-║   • Régr. Linéaire : 3/3  ✅          ║
-║   • Régr. Logist.  : 3/3  ✅          ║
-║   • Visualisation  : 1/1  ✅          ║
-║   • Documentation  : 2/2  ✅          ║
-║                                        ║
-╚════════════════════════════════════════╝
-```
 
 ---
 
-**📌 Note finale** : Ce compte rendu doit être complété avec les résultats numériques spécifiques obtenus après l'exécution du code d'analyse sur le dataset réel. Les sections marquées [À compléter après exécution] doivent être remplies avec les valeurs observées.
-
----
-
-*Document généré dans le cadre de l'analyse du dataset Student Stress Analysis - Novembre 2025*
